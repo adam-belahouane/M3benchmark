@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .black {
+        background-color: rgb(0, 0, 0);
+        color: white;
+      }
+      .divider {
+        border-bottom: 3px solid rgba(255, 255, 255, 0.226);
+      }
+      h6 {
+        background-color: rgba(255, 255, 255, 0.253);
+        padding: 5px;
+      }
+    </style>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <title>edit profile</title>
+  </head>
+  <body class="black">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Disabled</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row divider mb-3">
+        <div class="col"><h1>Edit Profile</h1></div>
+      </div>
+      <div class="row container">
+        <div class="col-2">
+          <img
+            class="img-fluid"
+            src="https://www.pulsewednesbury.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-10">
+          <div class="input-group input-group-sm mb-3">
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-sm"
+            />
+          </div>
+          <h5>Language:</h5>
+          <div class="dropdown divider pb-3 mb-3">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              English
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Arabic</a>
+              <a class="dropdown-item" href="#">Italian</a>
+              <a class="dropdown-item" href="#">German</a>
+            </div>
+          </div>
+          <div class="divider pb-3 mb-3">
+            <h5>Maturity Settings:</h5>
+            <h6>ALL MARTURITY RATINGS</h6>
+            <p>Show titles of all maturity ratings for this profile</p>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+          </div>
+          <div class="divider pb-3 mb-3">
+            <h5>Autoplay controls</h5>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="defaultCheck1"
+              />
+              <label class="form-check-label" for="defaultCheck1">
+                Autoplay next episode in a series on all devices.
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="defaultCheck1"
+              />
+              <label class="form-check-label" for="defaultCheck1">
+                Autoplay previews while browsing on all devices.
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row container">
+        <div class="col">
+          <button type="button" class="btn btn-outline-secondary">
+            Secondary
+            SAVE
+          </button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-outline-secondary">
+            Secondary
+            CANCEL
+          </button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-outline-secondary">
+            Secondary
+            DELETE PROFILE
+          </button>
+        </div>
+      </div>
